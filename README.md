@@ -23,7 +23,7 @@ $ curl http://localhost:5000/health
 Make a POST request:
 
 ```
-$ curl -d '{"key": "x"}' http://localhost:5000/
+$ curl -XPOST -d '{"key": "x"}' http://localhost:5000/
 {"key":"x"}
 ```
 
